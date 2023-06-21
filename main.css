@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 280px;
+    width: 100%;
+}
+
+form{
+    margin-top: 8px;
+}
+
+h1, h2{
+    font-style: italic;
+}
+
+input, button{
+    display: block;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 100%;
+    font-style: italic;
+}
+
+button{
+    color: #fff;
+    background-color: cornflowerblue;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(125, 164, 238);
+}
+
+.mensagem{
+    color: #fff;
+    background-color: cornflowerblue;
+    padding: 4px;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+    display: none;
+}
