@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+form{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+form input{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 6px;
+    margin-right: 8px;
+    border: none;
+
+}
+
+form button{
+    background-color: rgb(144, 145, 146);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(178, 180, 182);
+}
+
+.riscado{
+    text-decoration: line-through;
+}
