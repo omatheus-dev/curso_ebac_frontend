@@ -1,9 +1,9 @@
-function mutiplicacao(numero1: number, numero2: number): number {
+function multiplicacao(numero1: number, numero2: number): number {
     const resultado = numero1 * numero2;
     return resultado;
 }
 
-console.log(mutiplicacao(3, 4));
+console.log(multiplicacao(3, 4));
 
 
 
