@@ -13,13 +13,15 @@ class Pessoa {
     constructor(nome:string) {
         this.nome = nome;
     }
+}
 
-    dizOla():any {
-        console.log(`Olá ${this.nome}`);
-    }
+function dizOla():any {
+    console.log(`Olá ${Pessoa}`);
 }
 
 const Matheus = new Pessoa('Matheus');
-Matheus.dizOla();
+dizOla();
+
+
 
 
