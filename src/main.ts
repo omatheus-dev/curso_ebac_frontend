@@ -6,21 +6,12 @@ function multiplicacao(numero1: number, numero2: number): number {
 console.log(multiplicacao(3, 4));
 
 
-
-class Pessoa {
-    nome: string;
-
-    constructor(nome:string) {
-        this.nome = nome;
-    }
+function dizOla(item: string):void {
+    console.log(`Olá ${item}`);
 }
 
-function dizOla():any {
-    console.log(`Olá ${Pessoa}`);
-}
+dizOla('Matheus');
 
-const Matheus = new Pessoa('Matheus');
-dizOla();
 
 
 
