@@ -6,11 +6,12 @@ function multiplicacao(numero1: number, numero2: number): number {
 console.log(multiplicacao(3, 4));
 
 
-function dizOla(item: string):any {
-    console.log(`Olá ${item}`);
+function dizOla(item: string):string {
+    const res:string = `Olá ${item}`;
+    return res
 }
 
-dizOla('Matheus');
+console.log(dizOla('Matheus'));
 
 
 

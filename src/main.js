@@ -5,6 +5,7 @@ function multiplicacao(numero1, numero2) {
 }
 console.log(multiplicacao(3, 4));
 function dizOla(item) {
-    console.log(`Olá ${item}`);
+    const res = `Olá ${item}`;
+    return res;
 }
-dizOla('Matheus');
+console.log(dizOla('Matheus'));
