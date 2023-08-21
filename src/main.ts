@@ -6,7 +6,7 @@ function multiplicacao(numero1: number, numero2: number): number {
 console.log(multiplicacao(3, 4));
 
 
-function dizOla(item: string):void {
+function dizOla(item: string):any {
     console.log(`Olá ${item}`);
 }
 
